@@ -31,7 +31,7 @@ function send() {
 // Custome Cursor
 const cursor = document.querySelector(".custom-cursor");
 
-if (cursor) {
+if (cursor && window.matchMedia("(hover: hover)").matches) {
     // Keep tracking the mouse position
     document.addEventListener("mousemove", (e) => {
         cursor.style.left = e.clientX + 'px';
