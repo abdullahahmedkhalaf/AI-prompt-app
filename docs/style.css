@@ -77,21 +77,21 @@ body {
         border-color: #3498db !important;
         mix-blend-mode: normal !important;
     }
+}
 
-    .main-card {
-        width: 90%;
-        max-width: 1000px;
-        min-height: 600px;
-        padding: 20px;
-        border-radius: 15px;
-        background-color: #222831;
-        color: #E2E8F0 !important;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        gap: 15px;
-    }
+.main-card {
+    width: 90%;
+    max-width: 1000px;
+    min-height: 600px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #222831;
+    color: #E2E8F0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
 }
 
 #input-text-box, #respond-text-box {
