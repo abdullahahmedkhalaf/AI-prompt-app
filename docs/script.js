@@ -22,13 +22,11 @@ async function send() {
     // Prevent any empty prompts
     if (userPrompt === "") {
         errorElement.classList.add("error-show");
-        errorElement.classList.remove('error-hide');
         return;
     }
 
     // Hide error if visible
     errorElement.classList.remove('error-show');
-    errorElement.classList.add('error-hide');
 
     // Stop all the buttons while processing
     sendBtn.disabled = true;
